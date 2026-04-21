@@ -1,0 +1,6 @@
+{
+  "name": "Lexis Match",
+  "description": "An interactive word matching game that helps students learn synonyms through play, powered by Gemini for dynamic word pair generation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}

@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+  --animate-shake: shake 0.5s cubic-bezier(.36,.07,.19,.97) both;
+
+  @keyframes shake {
+    10%, 90% { transform: translate3d(-1px, 0, 0); }
+    20%, 80% { transform: translate3d(2px, 0, 0); }
+    30%, 50%, 70% { transform: translate3d(-4px, 0, 0); }
+    40%, 60% { transform: translate3d(4px, 0, 0); }
+  }
+}
+
+@layer base {
+  body {
+    background-color: #020617;
+    color: #f1f5f9;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
